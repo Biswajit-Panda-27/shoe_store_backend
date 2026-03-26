@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("../../models/postgres/UserModel.js"); // Adjust based on path
 const SECRET_KEY = "your_secret_key"; // Ideally, store in environment variables
