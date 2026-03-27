@@ -16,7 +16,7 @@ connectMongoDB(); // Initialize MongoDB connection
 // Use CORS to allow cross-origin requests
 app.use(
   cors({
-    origin: "http://localhost:5173", // Specify your frontend URL
+    origin: "*", // Specify your frontend URL
     credentials: true,
   })
 );
